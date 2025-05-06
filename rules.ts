@@ -53,6 +53,21 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
+      {
+        type: "basic",
+        description: "Disable CMD + Tilde to force Hyper Key usage",
+        from: {
+          key_code: "grave_accent_and_tilde",
+          modifiers: {
+            mandatory: ["left_command"],
+          },
+        },
+        to: [
+          {
+            key_code: "grave_accent_and_tilde"
+          },
+        ],
+      },
     ],
   },
   ...createHyperSubLayers({
