@@ -85,10 +85,9 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: app("1Password"),
-      // T'a'blePlus
-      a: app("TablePlus"),
       b: app("Obsidian"),
-      c: app("Google Calendar"),
+      c: app("Cursor"),
+      d: app("Todoist"),
       e: app("WezTerm"),
       f: app("Finder"),
       g: app("Google Chrome"),
@@ -97,8 +96,7 @@ const rules: KarabinerRules[] = [
       l: app("Outlook"),
       m: app("Gmail"),
       s: app("Slack"),
-      t: app("Todoist"),
-      u: app("Cursor"),
+      t: app("TablePlus"),
       v: app("Visual Studio Code"),
       w: app("Windsurf"),
       z: app("zoom.us"),
